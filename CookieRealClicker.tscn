@@ -1,0 +1,40 @@
+[gd_scene load_steps=5 format=3 uid="uid://gdxnnpfp2xpy"]
+
+[ext_resource type="Script" path="res://Button.gd" id="1_bhbe3"]
+[ext_resource type="Texture2D" uid="uid://dcbbfcfpihs04" path="res://icon.svg" id="1_jkr2v"]
+[ext_resource type="Theme" uid="uid://dipuvm1r73it" path="res://new_theme.tres" id="2_1wsfj"]
+[ext_resource type="Script" path="res://Labele.gd" id="4_byrc0"]
+
+[node name="Node2D" type="Node2D"]
+scale = Vector2(0.988806, 0.852941)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(435.879, 514.69)
+scale = Vector2(2.02675, 1)
+texture = ExtResource("1_jkr2v")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 312.498
+offset_top = 456.069
+offset_right = 407.498
+offset_bottom = 487.069
+scale = Vector2(2.67419, 3.82143)
+theme = ExtResource("2_1wsfj")
+text = "Cookie real"
+flat = true
+script = ExtResource("1_bhbe3")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 266.989
+offset_top = 365.793
+offset_right = 408.989
+offset_bottom = 391.793
+scale = Vector2(1.91767, 1.93615)
+text = "Cookies: LOADING"
+script = ExtResource("4_byrc0")
+
+[node name="Label2" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+scale = Vector2(2.07103, 4.36918)
+text = "SCUFFED COOKIE CLICKER!!!!!!!!!!!!!!!!! REAL!!!!!!!!!!!!!!!!!!"
